@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to LMS Project</h1>
+        <p>Learning Management System</p>
+
+        <h2>Student Login</h2>
+
+        <form id="loginForm">
+            <input type="text" id="studentName"
+                   placeholder="Enter your name" required>
+
+            <input type="email" id="studentEmail"
+                   placeholder="Enter your email" required>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="dashboard" hidden>
+            <h2>Welcome, <span id="displayName"></span>!</h2>
+            <p>Your Student Dashboard</p>
+            <h3>My Courses</h3>
+            <p>1. Computer Fundamentals</p>
+            <p>2. Web Development</p>
+            <p>3. Database Management System</p>
+        </div>
+    </div>
+<hr>
+<h3>Study Materials</h3>
+<p>HTML Notes - Learn the basics of HTML.</p>
+<p>CSS Notes - Learn website designing.</p>
+<p>JavaScript Notes - Learn programming basics.</p>
+
+<h3>Online Quiz</h3>
+<p>What does HTML stand for?</p>
+<button onclick="alert('Correct! HTML stands for HyperText Markup Language.')">
+    Show Answer
+</button>
+
+<h3>My Progress</h3>
+<p>Courses available: 3</p>
+<p>Status: Ready to Learn!</p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
